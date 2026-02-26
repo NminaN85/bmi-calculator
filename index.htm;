@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="layout">
+      <div class="header"></div>
+      <div class="leftSide"></div>
+      <div class="body">
+        <input id="height" type="number" placeholder="enter your height in CM">
+        <input id="weight" type="number" placeholder="enter your weight in Kilograms">
+        <button id="btn" onclick="calculateBMI()">calculate BMI</button>
+        <div class="card" id="resultsCard"></div>
+      </div>
+      <div class="rightSide"></div>
+      <div class="footer"></div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
